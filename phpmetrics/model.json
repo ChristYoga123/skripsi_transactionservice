@@ -1,0 +1,167 @@
+{
+    "App\\Models\\Transaksi": {
+        "name": "App\\Models\\Transaksi",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [],
+        "nbMethodsIncludingGettersSetters": 0,
+        "nbMethods": 0,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 0,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 0,
+        "ccn": 1,
+        "ccnMethodMax": 0,
+        "externals": [
+            "Illuminate\\Database\\Eloquent\\Model"
+        ],
+        "parents": [
+            "Illuminate\\Database\\Eloquent\\Model"
+        ],
+        "implements": [],
+        "lcom": 0,
+        "length": 1,
+        "vocabulary": 1,
+        "volume": 0,
+        "difficulty": 0,
+        "effort": 0,
+        "level": 2,
+        "bugs": 0,
+        "time": 0,
+        "intelligentContent": 0,
+        "number_operators": 0,
+        "number_operands": 1,
+        "number_operators_unique": 0,
+        "number_operands_unique": 1,
+        "cloc": 0,
+        "loc": 5,
+        "lloc": 5,
+        "mi": 171,
+        "mIwoC": 171,
+        "commentWeight": 0,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 0,
+        "relativeDataComplexity": 0,
+        "relativeSystemComplexity": 0,
+        "totalStructuralComplexity": 0,
+        "totalDataComplexity": 0,
+        "totalSystemComplexity": 0,
+        "package": "App\\Models\\",
+        "pageRank": 1,
+        "afferentCoupling": 0,
+        "efferentCoupling": 1,
+        "instability": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "App\\Models\\": {
+        "name": "App\\Models\\",
+        "classes": [
+            "App\\Models\\Transaksi"
+        ],
+        "outgoing_class_dependencies": [
+            "Illuminate\\Database\\Eloquent\\Model"
+        ],
+        "outgoing_package_dependencies": [
+            "Illuminate\\Database\\Eloquent\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": [],
+        "distance": 0,
+        "normalized_distance": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "tree": {
+        "name": "tree",
+        "depthOfInheritanceTree": 2,
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "composer": {
+        "name": "composer",
+        "packages": {
+            "laravel\/framework": {
+                "latest": null,
+                "license": [],
+                "homepage": null,
+                "description": null,
+                "time": null,
+                "zip": null,
+                "compare": null,
+                "type": "unknown",
+                "github_stars": 0,
+                "github_watchers": 0,
+                "github_forks": 0,
+                "github_open_issues": 0,
+                "download_total": 0,
+                "download_monthly": 0,
+                "download_daily": 0,
+                "favers": 0,
+                "installed": "11.44.7",
+                "required": "^11.31",
+                "name": "laravel\/framework",
+                "status": "unknown"
+            },
+            "laravel\/sanctum": {
+                "latest": null,
+                "license": [],
+                "homepage": null,
+                "description": null,
+                "time": null,
+                "zip": null,
+                "compare": null,
+                "type": "unknown",
+                "github_stars": 0,
+                "github_watchers": 0,
+                "github_forks": 0,
+                "github_open_issues": 0,
+                "download_total": 0,
+                "download_monthly": 0,
+                "download_daily": 0,
+                "favers": 0,
+                "installed": "4.1.1",
+                "required": "^4.0",
+                "name": "laravel\/sanctum",
+                "status": "unknown"
+            },
+            "laravel\/tinker": {
+                "latest": null,
+                "license": [],
+                "homepage": null,
+                "description": null,
+                "time": null,
+                "zip": null,
+                "compare": null,
+                "type": "unknown",
+                "github_stars": 0,
+                "github_watchers": 0,
+                "github_forks": 0,
+                "github_open_issues": 0,
+                "download_total": 0,
+                "download_monthly": 0,
+                "download_daily": 0,
+                "favers": 0,
+                "installed": "2.10.1",
+                "required": "^2.9",
+                "name": "laravel\/tinker",
+                "status": "unknown"
+            }
+        },
+        "packages-installed": {
+            "laravel\/framework": "11.44.7",
+            "laravel\/sanctum": "4.1.1",
+            "laravel\/tinker": "2.10.1"
+        },
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "searches": {
+        "name": "searches",
+        "violations": {},
+        "_type": "Hal\\Metric\\SearchMetric"
+    }
+}

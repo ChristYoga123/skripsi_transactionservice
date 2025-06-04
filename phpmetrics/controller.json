@@ -1,0 +1,246 @@
+{
+    "App\\Http\\Controllers\\TransactionController": {
+        "name": "App\\Http\\Controllers\\TransactionController",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "index",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "daftar",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "checkoutValidation",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "checkIfCourseIsCreatedByUser",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "checkIsRegistered",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "checkIsAdmin",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 6,
+        "nbMethods": 6,
+        "nbMethodsPrivate": 4,
+        "nbMethodsPublic": 2,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 16,
+        "ccn": 11,
+        "ccnMethodMax": 5,
+        "externals": [
+            "App\\Http\\Controllers\\Controller",
+            "App\\Models\\Transaksi",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "Illuminate\\Support\\Facades\\Http",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\DB",
+            "Illuminate\\Support\\Str",
+            "App\\Models\\Transaksi",
+            "Illuminate\\Support\\Facades\\Http",
+            "Illuminate\\Support\\Facades\\DB",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\DB",
+            "Illuminate\\Support\\Facades\\Log",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController"
+        ],
+        "parents": [
+            "App\\Http\\Controllers\\Controller"
+        ],
+        "implements": [],
+        "lcom": 2,
+        "length": 159,
+        "vocabulary": 57,
+        "volume": 927.43,
+        "difficulty": 6.59,
+        "effort": 6110.12,
+        "level": 0.15,
+        "bugs": 0.31,
+        "time": 339,
+        "intelligentContent": 140.77,
+        "number_operators": 47,
+        "number_operands": 112,
+        "number_operators_unique": 6,
+        "number_operands_unique": 51,
+        "cloc": 8,
+        "loc": 81,
+        "lloc": 73,
+        "mi": 60.49,
+        "mIwoC": 37.1,
+        "commentWeight": 23.39,
+        "kanDefect": 0.64,
+        "relativeStructuralComplexity": 324,
+        "relativeDataComplexity": 0.56,
+        "relativeSystemComplexity": 324.56,
+        "totalStructuralComplexity": 1944,
+        "totalDataComplexity": 3.37,
+        "totalSystemComplexity": 1947.37,
+        "package": "App\\Http\\Controllers\\",
+        "pageRank": 1,
+        "afferentCoupling": 0,
+        "efferentCoupling": 7,
+        "instability": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "App\\Http\\Controllers\\": {
+        "name": "App\\Http\\Controllers\\",
+        "classes": [
+            "App\\Http\\Controllers\\TransactionController"
+        ],
+        "outgoing_class_dependencies": [
+            "App\\Models\\Transaksi",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "Illuminate\\Support\\Facades\\DB",
+            "Illuminate\\Support\\Str",
+            "Illuminate\\Support\\Facades\\Log"
+        ],
+        "outgoing_package_dependencies": [
+            "App\\Models\\",
+            "App\\Http\\Controllers\\Helpers\\",
+            "Illuminate\\Support\\Facades\\",
+            "Illuminate\\Support\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": [],
+        "distance": 0,
+        "normalized_distance": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "tree": {
+        "name": "tree",
+        "depthOfInheritanceTree": 2,
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "composer": {
+        "name": "composer",
+        "packages": {
+            "laravel\/framework": {
+                "latest": "12.15.0",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "https:\/\/laravel.com",
+                "description": "The Laravel Framework.",
+                "time": "2025-05-20T15:10:44+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/laravel\/framework\/zipball\/2ef7fb183f18e547af4eb9f5a55b2ac1011f0b77",
+                "compare": true,
+                "type": "library",
+                "github_stars": 33627,
+                "github_watchers": 960,
+                "github_forks": 11378,
+                "github_open_issues": 87,
+                "download_total": 423285956,
+                "download_monthly": 9154019,
+                "download_daily": 342098,
+                "favers": 34098,
+                "name": "laravel\/framework",
+                "installed": "11.44.7",
+                "required": "^11.31",
+                "status": "outdated"
+            },
+            "laravel\/sanctum": {
+                "latest": "4.1.1",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "",
+                "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+                "time": "2025-04-23T13:03:38+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/laravel\/sanctum\/zipball\/a360a6a1fd2400ead4eb9b6a9c1bb272939194f5",
+                "compare": true,
+                "type": "library",
+                "github_stars": 2836,
+                "github_watchers": 50,
+                "github_forks": 299,
+                "github_open_issues": 1,
+                "download_total": 130323516,
+                "download_monthly": 4202429,
+                "download_daily": 162102,
+                "favers": 2853,
+                "name": "laravel\/sanctum",
+                "installed": "4.1.1",
+                "required": "^4.0",
+                "status": "latest"
+            },
+            "laravel\/tinker": {
+                "latest": "2.10.1",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "",
+                "description": "Powerful REPL for the Laravel framework.",
+                "time": "2025-01-27T14:24:01+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/laravel\/tinker\/zipball\/22177cc71807d38f2810c6204d8f7183d88a57d3",
+                "compare": true,
+                "type": "library",
+                "github_stars": 7383,
+                "github_watchers": 36,
+                "github_forks": 131,
+                "github_open_issues": 0,
+                "download_total": 344456364,
+                "download_monthly": 8256052,
+                "download_daily": 328502,
+                "favers": 7415,
+                "name": "laravel\/tinker",
+                "installed": "2.10.1",
+                "required": "^2.9",
+                "status": "latest"
+            }
+        },
+        "packages-installed": {
+            "laravel\/framework": "11.44.7",
+            "laravel\/sanctum": "4.1.1",
+            "laravel\/tinker": "2.10.1"
+        },
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "searches": {
+        "name": "searches",
+        "violations": {},
+        "_type": "Hal\\Metric\\SearchMetric"
+    }
+}

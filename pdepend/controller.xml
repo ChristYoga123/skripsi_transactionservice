@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2025-05-27T07:35:13" pdepend="@package_version@" ahh="2" andc="0" calls="44" ccn="16" ccn2="16" cloc="8" clsa="0" clsc="1" eloc="108" fanout="7" leafs="0" lloc="58" loc="138" maxDIT="2" ncloc="130" noc="1" nof="0" noi="0" nom="6" nop="1" roots="1">
+  <files>
+    <file name="D:\Kuliah\Project\transaction-service\app\Http\Controllers\TransactionController.php" loc="138" cloc="8" eloc="108" lloc="58" ncloc="130"/>
+  </files>
+  <package name="App\Http\Controllers" noc="1" noi="0" nom="6" nof="0" cr="0.15" rcr="0.15">
+    <class name="TransactionController" fqname="App\Http\Controllers\TransactionController" start="14" end="137" loc="124" cloc="8" eloc="89" lloc="43" ncloc="116" dit="2" noam="6" nocc="0" noom="0" nom="6" cr="0.15" rcr="0.2775" ca="0" cbo="7" ce="7" impl="0" cis="2" csz="6" npm="2" vars="0" varsi="0" varsnp="0" wmc="16" wmci="16" wmcnp="6">
+      <file name="D:\Kuliah\Project\transaction-service\app\Http\Controllers\TransactionController.php"/>
+      <method name="index" start="16" end="23" ccn="1" ccn2="1" loc="8" cloc="0" eloc="6" lloc="2" ncloc="8" npath="1" hnt="16" hnd="11" hv="55.350905898197" hd="9.625" hl="0.1038961038961" he="532.75246927014" ht="29.597359403897" hb="0.021905965170429" hi="5.7507434699425" mi="70.685551382825"/>
+      <method name="daftar" start="25" end="68" ccn="5" ccn2="5" loc="44" cloc="1" eloc="36" lloc="19" ncloc="43" npath="16" hnt="164" hnd="67" hv="994.83862723507" hd="15.529411764706" hl="0.064393939393939" he="15449.258681768" ht="858.29214898712" hb="0.20676824519057" hi="64.061578268925" mi="44.388055197273"/>
+      <method name="checkoutValidation" start="76" end="100" ccn="4" ccn2="4" loc="25" cloc="1" eloc="20" lloc="13" ncloc="24" npath="4" hnt="78" hnd="27" hv="370.88122516875" hd="15.46875" hl="0.064646464646465" he="5737.0689518291" ht="318.72605287939" hb="0.10682480899905" hi="23.976160010909" mi="53.091550571891"/>
+      <method name="checkIfCourseIsCreatedByUser" start="102" end="112" ccn="2" ccn2="2" loc="11" cloc="0" eloc="9" lloc="3" ncloc="11" npath="2" hnt="32" hnd="23" hv="144.75398259382" hd="8.7083333333333" hl="0.11483253588517" he="1260.5659317546" ht="70.031440653031" hb="0.038897568627708" hi="16.622466900726" mi="63.786419048443"/>
+      <method name="checkIsRegistered" start="114" end="124" ccn="2" ccn2="2" loc="11" cloc="0" eloc="9" lloc="3" ncloc="11" npath="2" hnt="32" hnd="23" hv="144.75398259382" hd="8.7083333333333" hl="0.11483253588517" he="1260.5659317546" ht="70.031440653031" hb="0.038897568627708" hi="16.622466900726" mi="63.786419048443"/>
+      <method name="checkIsAdmin" start="126" end="136" ccn="2" ccn2="2" loc="11" cloc="0" eloc="9" lloc="3" ncloc="11" npath="2" hnt="26" hnd="19" hv="110.44611534953" hd="8.8888888888889" hl="0.1125" he="981.74324755141" ht="54.541291530634" hb="0.032926383120867" hi="12.425187976822" mi="64.609016084738"/>
+    </class>
+  </package>
+</metrics>
